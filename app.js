@@ -11,7 +11,7 @@ botones.forEach((boton) => {
     if (boton.id === "igual") {
       try {
         pantalla.textContent = eval(pantalla.textContent);
-        pantalla.textContent.length > 10 ? Math.floor(pantalla.textContent) : pantalla.textContent
+        return;
       } catch {
         pantalla.textContent = "Erro!";
       }

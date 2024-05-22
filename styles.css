@@ -5,10 +5,14 @@
 }
 .contenedor {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  text-align: center;
+  background-image: url(./imagen/material-minimal-shape-8k-lv-1920x1080.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .cont-calculadora {
   background-color: rgba(0, 0, 0, 0.103);
@@ -25,17 +29,17 @@
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.459);
 }
+
 /* Pantalla */
 .pantalla {
   border-radius: 20px;
-  background-color: #f2eadc;
+  background-color: #f2eadcd7;
   height: 100px;
   width: 90%;
   margin-top: 10px;
   padding: 1.5rem;
   font-size: 2rem;
   text-align: right;
-  
 }
 
 /* Contenedor NUMEROS */
